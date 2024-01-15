@@ -732,7 +732,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: src="presentation-bg.png";
+  background-image: url("../presentation-bg.png");
   background-size: contain;
   background-position: 0 -150px;
   background-repeat: no-repeat;
@@ -753,7 +753,7 @@ body {
   max-height: 750px;
   width: 100%;
   height: 100%;
-  background-image: src="bg-blur.png";
+  background-image: url("../bg-blur.png");
   background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -1045,7 +1045,7 @@ body {
   }
 }
 .modules__header {
-  background: src="modules-bg.png" top center/cover no-repeat;
+  background: url("../modules-bg.png") top center/cover no-repeat;
 }
 @media (max-width: 991.98px) {
   .modules__header {
@@ -1520,7 +1520,7 @@ body {
   background: #000;
   color: #fff;
   text-align: center;
-  background-image: src="watch-bg.png";
+  background-image: url("../watch-bg.png");
   background-size: cover;
   background-position: 0 -33rem;
   background-repeat: unset;
@@ -1610,7 +1610,7 @@ body {
   background-color: #000;
   position: relative;
   z-index: 2;
-  background-image: src="about-wave.png";
+  background-image: url("about-wave.png");
   background-position: bottom center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1775,7 +1775,7 @@ body {
 @media (max-width: 991.98px) {
   .testimonials {
     margin-top: 0;
-    background-image: src="waves-bg.jpg";
+    background-image: url("../waves-bg.jpg");
     background-position: bottom center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1960,7 +1960,7 @@ body {
   top: 0;
   width: 4.2rem;
   height: 2.9rem;
-  background: src="icon-quote.svg" center/cover no-repeat;
+  background: url("../icon-quote.svg") center/cover no-repeat;
   pointer-events: none;
 }
 .testimonials__item__text {
@@ -1995,7 +1995,7 @@ body {
   transform: translateY(-50%);
   width: 1.4rem;
   height: 1.4rem;
-  background: src='icon-video.svg' center/cover no-repeat; */
+  background: url('../icon-video.svg') center/cover no-repeat; */
 }
 /* .testimonials__item__img {
   width: 9.7rem;
@@ -2172,7 +2172,7 @@ button:hover {
 .faq {
   background-color: #000;
   position: relative;
-  background-image: src="faq-bg.png";
+  background-image: url("faq-bg.png");
   background-position: top right;
   background-repeat: no-repeat;
 }
